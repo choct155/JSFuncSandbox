@@ -1,0 +1,18 @@
+{
+  "name": "node_intro",
+  "version": "1.0.0",
+  "description": "Just an intro project to learn about javascript and nodejs",
+  "main": "HigherOrderFuncs.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "choct155",
+  "license": "ISC",
+  "providedServices": {
+    "tester": {
+      "versions": {
+        "1.0.0": "provideTester"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Higher Order Functions</title>
+    <script src="src/HigherOrderFuncs.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Higher Order Functions</h1>
+    <div id="recSum"></div>
+    <div id="foldLeft"></div>
+    <script type="text/javascript">
+      document.getElementById("recSum").innerHTML = recSum([1,2,3,4]);
+      document.getElementById("foldLeft").innerHTML = foldLeft(0, (x, y) => x + y, [1,2,3,4]);
+    </script>
+
+  </body>
+</html>
